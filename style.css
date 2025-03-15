@@ -1,0 +1,40 @@
+.question-card {
+  background: linear-gradient(135deg, #2a2a72, #009ffd);
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.question-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.comments-section {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.comments-section h4 {
+  font-size: 18px;
+}
+
+.list-group-item {
+  padding: 8px 12px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+}
+
+.input-group textarea {
+  font-size: 14px;
+  height: 35px;
+  padding: 5px;
+}
+
+.input-group button {
+  font-size: 14px;
+  padding: 5px 10px;
+}
